@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Momentum App</title>
+</head>
+
+<body>
+  <div class="background_img">
+    <img src="img/gradienta-LeG68PrXA6Y-unsplash.jpg" alt="">
+  </div>
+  <header id="main-header">
+    <div class="clock">
+      <h2 id="clock">00:00</h2>
+    </div>
+    <div class="login">
+      <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="What is your name?">
+        <button>Log In</button>
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+
+    </div>
+    <div class="quote">
+      <div>
+        <span>TODAY's quote</span>
+      </div>
+      <div id="quote-quotes">
+        <span class="quotes"></span>
+      </div>
+      <div id="quote-author">
+        <span class="authors"></span>
+      </div>
+    </div>
+  </header>
+  <div class="fist-cloumn">
+    <div class="todolist">
+      <form id="todo-form">
+        <input type="text" placeholder="Write a to Do and Press Enter" required>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+  </div>
+  <!-- <div class="waterdrink-count"></div> -->
+  <!-- <div id="weather"> 
+    <span></span>
+    <span></span>
+  </div> -->
+  <script src="js/quotes.js"></script>
+  <script src="js/greetings.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+
+</html>

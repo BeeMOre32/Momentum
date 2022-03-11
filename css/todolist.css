@@ -1,0 +1,41 @@
+.todolist {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: fit-content;
+  border: 3px solid var(--gray);
+  border-radius: 20px;
+}
+#todo-form {
+  width: fit-content;
+  height: fit-content;
+}
+.todolist input {
+  margin: 20px 0px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: inherit;
+}
+.todolist input::placeholder {
+  color: black;
+}
+.todolist input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+#todo-list {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+#todo-list li {
+  flex-wrap: nowrap;
+  width: fit-content;
+  height: 40px;
+}
