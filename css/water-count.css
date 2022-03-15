@@ -1,0 +1,29 @@
+.waterdrink {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--gray);
+  border-radius: 20px;
+  height: 300px;
+}
+.waterdrink img {
+  width: 100px;
+  height: 100px;
+}
+.waterdrink input {
+  background-color: inherit;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+}
+.waterdrink input:hover {
+  transition: 0.1s ease-in;
+  background-color: rgba(108, 162, 184, 0.84);
+}
+.waterdrink__counter {
+  margin-top: 10px;
+}

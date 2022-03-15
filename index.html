@@ -37,24 +37,33 @@
       </div>
     </div>
   </header>
-  <div class="fist-cloumn">
+  <div class="first-cloumn">
     <div class="todolist">
       <form id="todo-form">
-        <input type="text" placeholder="Write a to Do and Press Enter" required>
+        <input id="todo-input" type="text" placeholder="Write a to Do and Press Enter" required>
       </form>
       <ul id="todo-list"></ul>
     </div>
+    <div class="waterdrink">
+      <div class="waterdirnk-input__box">
+        <input type="button" value="+1 CUP" class="waterdrink-count__plus">
+        <input type="button" value="-1 CUP" class="waterdrink-count__minus">
+      </div>
+      <span class="waterdrink__counter">You Don't Drink water yet!</span>
+
+    </div>
   </div>
-  <!-- <div class="waterdrink-count"></div> -->
-  <!-- <div id="weather"> 
-    <span></span>
-    <span></span>
-  </div> -->
+
+  <!-- <div id="weather"> -->
+  <span></span>
+  <span></span>
+  </div>
   <script src="js/quotes.js"></script>
   <script src="js/greetings.js"></script>
   <script src="js/clock.js"></script>
   <script src="js/todo.js"></script>
   <script src="js/weather.js"></script>
+  <script src="js/count-water.js"></script>
 </body>
 
 </html>
