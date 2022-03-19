@@ -23,6 +23,7 @@
 .waterdrink input:hover {
   transition: 0.1s ease-in;
   background-color: rgba(108, 162, 184, 0.84);
+  box-shadow: 0px 0px 20px 5px rgba(108, 162, 184, 0.84);
 }
 .waterdrink__counter {
   margin-top: 10px;

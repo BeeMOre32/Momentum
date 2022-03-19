@@ -10,12 +10,16 @@
 </head>
 
 <body>
-  <div class="background_img">
-    <img src="img/gradienta-LeG68PrXA6Y-unsplash.jpg" alt="">
-  </div>
   <header id="main-header">
+    <div class="color-change">
+      <button>Click to change color</button>
+    </div>
     <div class="clock">
       <h2 id="clock">00:00</h2>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
     </div>
     <div class="login">
       <form id="login-form" class="hidden">
@@ -23,7 +27,6 @@
         <button>Log In</button>
       </form>
       <h1 id="greeting" class="hidden"></h1>
-
     </div>
     <div class="quote">
       <div>
@@ -36,6 +39,7 @@
         <span class="authors"></span>
       </div>
     </div>
+
   </header>
   <div class="first-cloumn">
     <div class="todolist">
@@ -54,16 +58,14 @@
     </div>
   </div>
 
-  <!-- <div id="weather"> -->
-  <span></span>
-  <span></span>
-  </div>
+
   <script src="js/quotes.js"></script>
   <script src="js/greetings.js"></script>
   <script src="js/clock.js"></script>
   <script src="js/todo.js"></script>
   <script src="js/weather.js"></script>
   <script src="js/count-water.js"></script>
+  <script src="js/backgroundcolor.js"></script>
 </body>
 
 </html>
