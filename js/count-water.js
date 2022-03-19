@@ -1,7 +1,6 @@
 const plusCounter = document.querySelector(".waterdrink-count__plus");
 const minusCounter = document.querySelector(".waterdrink-count__minus");
 const count = document.querySelector(".waterdrink__counter");
-const watercount = localStorage.setItem("water", parseInt("0"));
 
 function pluseCount() {
   let watercounter = parseInt(localStorage.getItem("water"));
@@ -23,8 +22,9 @@ function minusCount() {
 }
 const savedWaterCount = parseInt(localStorage.getItem("water"));
 
-if (savedWaterCount !== 0) {
-  count.innerText = `You drink water ${savedWaterCount}cup`;
+if (savedWaterCount === 0) {
+  count.innerText = "You don't drink water yet!";
 }
+
 plusCounter.addEventListener("click", pluseCount);
 minusCounter.addEventListener("click", minusCount);
